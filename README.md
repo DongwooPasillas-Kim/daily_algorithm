@@ -1,6 +1,6 @@
 ### Daily Algorithm Challenge
 
-####Description
+#### Description
 - This is a personal repository to collect results of my attempts to enhance my programming skills.
 
 #### Environment
