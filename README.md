@@ -4,6 +4,6 @@
 - This is a personal repository to collect results of my attempts to enhance my programming skills.
 
 #### Environment
-- iSH (AlpineLinux on iOS)
-- Python
-- Vim
+- OS: macOS, iSH (AlpineLinux on iOS)
+- Languages: Python, Javascript
+- Editor: VS Code, Vim
