@@ -8,11 +8,9 @@ import re
 
 def check_alphanumeric(string_to_check: str) -> bool:
     p = re.compile("[^a-zA-Z0-9]")
-    if p.match(string_to_check):
-        print(
-            "A non-alphanumerical character "
-            + f"'{p.match(string_to_check).group()}' has been found"
-        )
+    result = p.match(string_to_check)
+    if result:
+        print("A non-alphanumerical character " + f"'{result.group()}' has been found")
         return False
     print("All characters are alphanumerical.")
     return True
